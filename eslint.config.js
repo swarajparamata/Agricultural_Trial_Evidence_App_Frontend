@@ -6,8 +6,7 @@ import tseslint from 'typescript-eslint';
 import { defineConfig, globalIgnores } from 'eslint/config';
 
 export default defineConfig([
-  // The original single-file prototype is kept for reference only.
-  globalIgnores(['dist', 'agritrial_dashboard.tsx']),
+  globalIgnores(['dist']),
   {
     files: ['**/*.{ts,tsx}'],
     extends: [

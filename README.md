@@ -145,4 +145,3 @@ Components reach state through hooks such as `useTrialFilters`, `useTrialSelecti
 ## Notes
 
 - The offline demo data (`src/constants/demo`) was generated from the backend's reconciled sample data. Regenerate it if the sample data or the reconciliation rules change.
-- `agritrial_dashboard.tsx` in the project root is the original single-file prototype this app was split from. It is excluded from linting and the build and can be deleted.
